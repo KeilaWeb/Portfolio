@@ -1,9 +1,9 @@
-import React from "react";
 import Avatar from '../img/eu.jpeg'
+import "../styles/components/sidebar.sass";
 
 const Sidebar = () => {
     return <aside id="sidebar">
-        <p>imagem</p>
+        <img src={Avatar} alt="Keila Barreto"/>
         <p className="title">Desenvolvedora</p>
         <p>redes sociais</p>
         <p>informações de contato</p>
