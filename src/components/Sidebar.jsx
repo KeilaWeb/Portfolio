@@ -6,7 +6,7 @@ import SocialNetWorks from './SocialNetWorks';
 const Sidebar = () => {
     return <aside id="sidebar">
         <img src={Avatar} alt="Keila Barreto"/>
-        <p className="title">Desenvolvedora</p>
+        <p className="title">Desenvolvedora Front-End</p>
         <SocialNetWorks/>
         <InformationContainer/>
         <a href="" className="btn">Download curriculo</a>
