@@ -1,5 +1,5 @@
 import { 
-  DiHtml5, DiCss3, DiJsBadge, DiMysql, DiReact } from "react-icons/di";
+  DiHtml5, DiCss3, DiJsBadge, DiMysql, DiReact, DiPhotoshop, DiWordpress } from "react-icons/di";
   import { LiaVuejs, LiaSass } from "react-icons/lia";
   
   import "../styles/components/technologiescontainer.sass";
@@ -9,8 +9,11 @@ import {
     { id: "css", name: "CSS3", icon: <DiCss3 /> },
     { id: "react", name: "React.js", icon: <DiReact /> },
     { id: "vue", name: "Vue.js", icon: <LiaVuejs /> },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
     { id: "sass", name: "Sass", icon: <LiaSass /> },
     { id: "mysql", name: "MySQL", icon: <DiMysql /> },
+    { id: "ps", name: "Photoshop", icon: <DiPhotoshop /> },
+    { id: "wd", name: "Wordpress", icon: <DiWordpress /> },
   ];
   
   const TechnologiesContainer = () => {
