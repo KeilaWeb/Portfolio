@@ -1,4 +1,7 @@
-# React + Vite
+# React + Vite + SASS
+
+- Para rodar este projeto precisa instalar as dependencias do React (npm i), precisa instalar  a extensão do Sass e as dependencias do Sass (npm install  -D sass), e uma dependencia de icones do react (npm install react-icons)
+--
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
